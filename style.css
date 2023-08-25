@@ -2,8 +2,12 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    overflow-y: auto;
-    background: linear-gradient(to top, #333 50%, #0028ca);
+    overflow-y: hidden;
+    background: url('banner.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: sans-serif;
 }
 
@@ -60,6 +64,9 @@ h1 {
         width: 400px;
         height: 400px;
     }
+        body {
+    overflow-y: auto;
+}
 }
 
 @media screen and (max-width: 950px) {
@@ -70,6 +77,7 @@ h1 {
     h1 {
         font-size: 2.5rem;
     }
+
 }
 
 @media screen and (max-width: 500px) {
