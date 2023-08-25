@@ -1,6 +1,4 @@
 const choicesContainer = document.getElementById("choicesContainer");
-
-$.getJSON('database.JSON', function (dogs) {
     
     let choice1Container = document.createElement("div");
     let choice2Container = document.createElement("div");
@@ -21,4 +19,3 @@ $.getJSON('database.JSON', function (dogs) {
     choice2ContainerLink.appendChild(choice2Container);
     choicesContainer.appendChild(choice1ContainerLink);
     choicesContainer.appendChild(choice2ContainerLink);
-});
