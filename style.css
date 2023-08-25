@@ -54,6 +54,7 @@ h1 {
 @media screen and (max-width: 1000px) {
     #choicesContainer {
         flex-direction: column;
+        padding-bottom: 100px;
     }
     #choicesContainer a div {
         width: 400px;
